@@ -31,3 +31,46 @@ body {
   text-decoration: none;
   color: #f9faf8;
 }
+
+.hero {
+  display: flex;
+  padding: 20px 200px;
+  background-color: #1f2937;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+  flex-basis: 400px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero button {
+  width: 150px;
+}
+
+.hero img {
+  width: 400px;
+  height: auto;
+}
+
+button {
+  background-color: #3882f6;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
