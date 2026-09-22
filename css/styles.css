@@ -13,6 +13,7 @@ body {
   background-color: #1f2937;
   display: flex;
   padding: 20px 200px;
+  flex-wrap: wrap;
 }
 
 .header-logo img {
@@ -34,11 +35,12 @@ body {
 
 .hero {
   display: flex;
-  padding: 20px 200px;
+  padding: 100px 200px;
   background-color: #1f2937;
   align-items: center;
   justify-content: center;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .hero-left {
@@ -89,12 +91,16 @@ button {
 .info-card {
   display: flex;
   gap: 40px;
-  padding: 30px 200px;
+  padding: 30px 100px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
 }
 
-.info-card img {
+.card img {
   width: 200px;
-  height: 200px;
+  height: auto;
 }
 
 .card {
@@ -108,4 +114,42 @@ button {
   align-items: center;
   justify-content: center;
   width: 300px;
+  height: 500px;
+}
+
+.card p {
+  font-size: 18px;
+}
+
+.card h3 {
+  font-size: 20px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 20px 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.quote h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+  max-width: 1200px;
+}
+
+.quote-name {
+  display: flex;
+  justify-content: flex-end;
+  width: 1200px;
+}
+
+.quote p {
+  font-size: 22px;
+  font-weight: bold;
 }
