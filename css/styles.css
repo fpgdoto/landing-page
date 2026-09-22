@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #1f2937;
+  display: flex;
+  padding: 20px 200px;
+}
+
+.header-logo img {
+  width: 150px;
+}
+
+.header-link {
+  display: flex;
+  margin-left: auto;
+  gap: 20px;
+  align-items: center;
+}
+
+.header-link a {
+  font-size: 24px;
+  text-decoration: none;
+  color: #f9faf8;
+}
