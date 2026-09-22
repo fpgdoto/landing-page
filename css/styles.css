@@ -1,3 +1,7 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -152,4 +156,66 @@ button {
 .quote p {
   font-size: 22px;
   font-weight: bold;
+}
+
+.sign {
+  padding: 20px 100px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-container {
+  background-color: #3882f6;
+  width: 1500px;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 50px 200px 50px 200px;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sign-left {
+  display: flex;
+  flex-direction: column;
+  color: #f9faf8;
+  gap: 10px;
+}
+
+.sign-left h3 {
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+
+.sign-left p {
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+.sign-right button {
+  border: 2px solid #f9faf8;
+  width: 150px;
+  font-size: 18px;
+}
+
+.footer {
+  display: flex;
+  background-color: #1f2937;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 50px;
+}
+
+.footer p {
+  color: #f9faf8;
+  font-size: 20px;
+}
+
+.credits a {
+  color: #f9faf8;
+  font-size: 25px;
 }
